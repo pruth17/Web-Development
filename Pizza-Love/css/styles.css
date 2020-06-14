@@ -6,6 +6,15 @@ h1 {
   color: #d32626;
 }
 
-img {
+/*img {
+  background-color: #d32626;
+}
+*/
+
+.beer {
+  background-color: #fce38a;
+}
+
+.pizza {
   background-color: #d32626;
 }
