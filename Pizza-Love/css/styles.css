@@ -6,10 +6,10 @@ h1 {
   color: #d32626;
 }
 
-/*img {
-  background-color: #d32626;
+img:hover {
+  background-color: white;
 }
-*/
+
 
 .beer {
   background-color: #fce38a;
