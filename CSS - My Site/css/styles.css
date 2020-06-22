@@ -1,45 +1,79 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
   font-family: 'Caveat', cursive;
-  font-size: 40px;
+  color: #66BFBF;
+  line-height: 2.3;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: black;
+  border-width: 8px;
 }
 
 p {
   font-family: 'Lato', sans-serif;
   font-family: 'Martel', serif;
+  color: #40514E;
+  line-height: 2;
 }
 
 .top-container {
   background-color: #b6eb7a;
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
+  height: 100vh;
 }
 
 .middle-container {
-
-
+  margin: 100px 0;
 }
 
-.bottom-container {
+h2 {
+  font-size: 2.2rem;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Martel', serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
 
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .pic {
@@ -47,4 +81,82 @@ p {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.website {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.mobile {
+  width: 22%;
+  float: right;
+  margin-left: 30px;
+}
+
+.backend {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer{
+  width: 20%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.name {
+  color: #EAF6F6;
+}
+
+.footer-link{
+  color: #11999E;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+
+  background-color: #11CDD4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover{
+  background-color: #2BC4AD;
+}
+
+.name-copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.my-skills {
+  padding-top: 15px;
 }
