@@ -4,16 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body >
+<!--
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;
 
+-->
   <section id="title">
 
     <!-- Nav Bar -->
-    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">Tindog</a>
+    <nav class="navbar  navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">TinDog</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,14 +45,15 @@
 
 
     <!-- Title -->
-
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
+    <div class="row">
+      <div class = "col-lg-6 col-md-12 col-sm-12 center align-self-sm-center" id= "des">
+        <h1>Meet new and interesting dogs nearby.</h1>
+        <button class="btn btn-dark" type="button">Download</button>
+        <button  class="btn btn-dark" type="button">Download</button>
+      </div>
+      <div class = "col-lg-6 col-md-12 col-sm-12">
+        <img class="rounded mx-auto d-block" src="images/iphone6.png" alt="iphone-mockup">
+      </div>
     </div>
 
   </section>
