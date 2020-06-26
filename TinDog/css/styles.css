@@ -1,6 +1,7 @@
 #title {
   background-color: #ff4c68;
   color: white;
+  height: 100%;
 }
 
 #features{
@@ -19,6 +20,7 @@
   background-color:  #ef8172;
   text-align: center;
   padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 h1{
