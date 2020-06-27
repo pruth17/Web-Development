@@ -69,6 +69,10 @@ p {
   color: black;
 }
 
+.footer1:hover{
+  color: #ff4c68;
+}
+
 .fab1 {
   color: #ef8172;
   margin-bottom: 1rem;
