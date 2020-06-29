@@ -18,7 +18,7 @@
 ![Screenshot](pricing.png)
 
 ### Footer
-![Screenshot](footer..png)
+![Screenshot](footer.png)
 
 
 
