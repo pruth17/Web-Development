@@ -11,6 +11,7 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomDiceImage2);
 
 var heading = document.querySelector("h1");
+
 if(random1 > random2){
   heading.innerHTML = "Player1 won!"
 }
