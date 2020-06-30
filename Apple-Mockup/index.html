@@ -19,7 +19,7 @@
 
 <body>
   <section id="navigation-area">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation" style="color:white;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navigation" style="color:white;">
       <a class="navbar-brand apple-logo" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,6 +57,7 @@
       </div>
     </nav>
 
+
     <nav class="navbar navbar-dark bg-primary covid">
       <a class="warning" href="#">Evalute COVID-19 symptoms and understand next steps ></a>
     </nav>
@@ -69,6 +70,7 @@
 
   <section id="iPhoneSE-intro">
     <div class="container-fluid intro">
+
       <h1 class="iPhone-SE">iPhone SE</h1>
       <h3 class="iPhone-SE-description">Lots to love. Less to spend.</h3>
       <h3 class="iPhone-SE-description">Starting at $399.</h3>
@@ -76,7 +78,13 @@
       <div class="learning">
       <a class="learn"href="#">Learn more ></a>
       <a href="#">Buy ></a>
-      <img class="iPhon-SE-image"src="images/iPhone-SE.png" alt="iPhone-SE">
+      <div class="container-fluid iphone-pic">
+      <picture class = "ima1">
+        <source media="(min-width:950px)" srcset="images/iPhone-SE.png">
+        <!-- <source class="iPhon-SE-image" media="(min-width:700px)" srcset="images/apl-ver.jpg"> -->
+        <img class="iPhon-SE-image" src="images/apl-ver.jpg" alt="iPhone-SE" style="height: 500px;">
+      </picture>
+      </div>
       </div>
 
     </div>

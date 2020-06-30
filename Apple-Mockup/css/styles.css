@@ -1,15 +1,30 @@
 /* Navigation Bars */
 .apple-logo {
   font-size: 2rem;
+  color: white;
+}
+
+.navigation {
+  padding-top: 0px;
+  background-color: black !important;
 }
 
 .warning {
-  padding-left: 32rem;
+  /* padding-left: 32rem; */
   color: white;
+  text-align: center;
 
 }
 .covid {
-  text-align: center;
+  padding: 12px 0;
+    /* background: #0071E3; */
+    color: #ffffff;
+    margin-top: 4rem;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navcolor1{
@@ -22,15 +37,30 @@ body {
   background-color: #393e46;
 }
 
+.vertical1 {
+  size: "2";
+}
+
 .online {
+  text-align: center;
   background-color: white;
+
+  padding: 12px 0;
   padding-bottom: 0;
+    /* background: #0071E3; */
+    margin-top: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .shopping {
   color: #393e46;
-  padding-left: 36rem;
+
 }
+
+
 
 /* Intro of Page, iPhone-SE section */
 
@@ -38,6 +68,7 @@ body {
   background-color: #161617;
   text-align: center;
 }
+
 
 .iPhone-SE {
   padding-top: 5rem;
@@ -60,6 +91,11 @@ body {
 .learning {
  color: blue;
  font-size: 1.3rem;
+}
+
+.navcolor1:hover {
+  color: blue;
+  text-decoration: none;
 }
 
 .iPhone-SE-image {
