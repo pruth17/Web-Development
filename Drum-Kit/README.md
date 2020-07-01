@@ -3,7 +3,7 @@
 ### Website to play the sound of different parts of drum
 
 ### Visual
-![Screenshot](drum-kit-ss)
+![Screenshot](drum-kit-ss.png)
 
 
 
