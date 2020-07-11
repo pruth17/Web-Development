@@ -33,6 +33,9 @@ app.post("/", function(req, res){
   };
 
   const jsonData = JSON.stringify(data);
+  https.get(url, function(){
+
+  });
 
 
 });
