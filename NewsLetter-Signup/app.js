@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
+const https = require('https');
 
 const app = express();
 
@@ -33,11 +34,29 @@ app.post("/", function(req, res){
   };
 
   const jsonData = JSON.stringify(data);
-  https.get(url, function(){
-
+  const url = "https://us10.api.mailchimp.com/3.0/lists/7f69dee3b0";
+  const options = {
+    method:"POST",
+    auth:"pruthvi:a2d2f92b3077cb036fbd9f06aebedd562-us10"
+  }
+  const request = https.request(url, options, function(response){
+  if(response.statusCode === 200) {
+    res.sendFile(__dirname + "/success.html");
+  }
+  else {
+    res.sendFile(__dirname + "/failure.html");
+  }
+    response.on("data", function(data){
+      console.log(JSON.parse(data));
+    });
   });
+  request.write(jsonData);
+  request.end();
 
+});
 
+app.post("/failure", function(req, res){
+  res.redirect("/");
 });
 
 
